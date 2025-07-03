@@ -1,0 +1,5 @@
+﻿  main.cpp
+D:\CMGT\year3\C++\C++Project\C++\main.cpp(196,19): warning C4101: 'event': unreferenced local variable
+  sceneHandler.cpp
+  Generating Code...
+  C++.vcxproj -> D:\CMGT\year3\C++\C++Project\C++\x64\Debug\C++.exe

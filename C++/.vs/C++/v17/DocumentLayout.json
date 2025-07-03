@@ -1,0 +1,101 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\CMGT\\year3\\C\u002B\u002B\\C\u002B\u002BProject\\C\u002B\u002B\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5F0694C5-C853-4D3B-B320-C8AB554333B5}|C\u002B\u002B.vcxproj|D:\\CMGT\\year3\\C\u002B\u002B\\C\u002B\u002BProject\\C\u002B\u002B\\button.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{5F0694C5-C853-4D3B-B320-C8AB554333B5}|C\u002B\u002B.vcxproj|solutionrelative:button.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F0694C5-C853-4D3B-B320-C8AB554333B5}|C\u002B\u002B.vcxproj|D:\\CMGT\\year3\\C\u002B\u002B\\C\u002B\u002BProject\\C\u002B\u002B\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{5F0694C5-C853-4D3B-B320-C8AB554333B5}|C\u002B\u002B.vcxproj|solutionrelative:main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F0694C5-C853-4D3B-B320-C8AB554333B5}|C\u002B\u002B.vcxproj|D:\\CMGT\\year3\\C\u002B\u002B\\C\u002B\u002BProject\\C\u002B\u002B\\highscoreManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{5F0694C5-C853-4D3B-B320-C8AB554333B5}|C\u002B\u002B.vcxproj|solutionrelative:highscoreManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F0694C5-C853-4D3B-B320-C8AB554333B5}|C\u002B\u002B.vcxproj|D:\\CMGT\\year3\\C\u002B\u002B\\C\u002B\u002BProject\\C\u002B\u002B\\enemy.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{5F0694C5-C853-4D3B-B320-C8AB554333B5}|C\u002B\u002B.vcxproj|solutionrelative:enemy.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F0694C5-C853-4D3B-B320-C8AB554333B5}|C\u002B\u002B.vcxproj|D:\\CMGT\\year3\\C\u002B\u002B\\C\u002B\u002BProject\\C\u002B\u002B\\sceneHandler.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{5F0694C5-C853-4D3B-B320-C8AB554333B5}|C\u002B\u002B.vcxproj|solutionrelative:sceneHandler.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "sceneHandler.cpp",
+              "DocumentMoniker": "D:\\CMGT\\year3\\C\u002B\u002B\\C\u002B\u002BProject\\C\u002B\u002B\\sceneHandler.cpp",
+              "RelativeDocumentMoniker": "sceneHandler.cpp",
+              "ToolTip": "D:\\CMGT\\year3\\C\u002B\u002B\\C\u002B\u002BProject\\C\u002B\u002B\\sceneHandler.cpp",
+              "RelativeToolTip": "sceneHandler.cpp",
+              "ViewState": "AQIAABgAAAAAAAAAAAAlwEAAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-01-03T14:30:28.585Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "button.hpp",
+              "DocumentMoniker": "D:\\CMGT\\year3\\C\u002B\u002B\\C\u002B\u002BProject\\C\u002B\u002B\\button.hpp",
+              "RelativeDocumentMoniker": "button.hpp",
+              "ToolTip": "D:\\CMGT\\year3\\C\u002B\u002B\\C\u002B\u002BProject\\C\u002B\u002B\\button.hpp",
+              "RelativeToolTip": "button.hpp",
+              "ViewState": "AgIAAFAAAAAAAAAAAAAlwFwAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-01-03T13:48:30.007Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "highscoreManager.cpp",
+              "DocumentMoniker": "D:\\CMGT\\year3\\C\u002B\u002B\\C\u002B\u002BProject\\C\u002B\u002B\\highscoreManager.cpp",
+              "RelativeDocumentMoniker": "highscoreManager.cpp",
+              "ToolTip": "D:\\CMGT\\year3\\C\u002B\u002B\\C\u002B\u002BProject\\C\u002B\u002B\\highscoreManager.cpp",
+              "RelativeToolTip": "highscoreManager.cpp",
+              "ViewState": "AQIAACEAAAAAAAAAAAArwB8AAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-01-03T12:57:58.252Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "enemy.cpp",
+              "DocumentMoniker": "D:\\CMGT\\year3\\C\u002B\u002B\\C\u002B\u002BProject\\C\u002B\u002B\\enemy.cpp",
+              "RelativeDocumentMoniker": "enemy.cpp",
+              "ToolTip": "D:\\CMGT\\year3\\C\u002B\u002B\\C\u002B\u002BProject\\C\u002B\u002B\\enemy.cpp",
+              "RelativeToolTip": "enemy.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAGwAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-01-03T12:54:09.635Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "main.cpp",
+              "DocumentMoniker": "D:\\CMGT\\year3\\C\u002B\u002B\\C\u002B\u002BProject\\C\u002B\u002B\\main.cpp",
+              "RelativeDocumentMoniker": "main.cpp",
+              "ToolTip": "D:\\CMGT\\year3\\C\u002B\u002B\\C\u002B\u002BProject\\C\u002B\u002B\\main.cpp",
+              "RelativeToolTip": "main.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-31T14:35:30.987Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
