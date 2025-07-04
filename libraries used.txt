@@ -1,0 +1,2 @@
+SFML-2.6.2
+https://www.sfml-dev.org/download/sfml/2.6.2/

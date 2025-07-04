@@ -4,16 +4,24 @@
 
 #include "sceneHandler.hpp"
 #include "scene.hpp"
-#include "button.hpp"
 #include "textObject.hpp"
 #include "enemy.hpp"
+#include "button.hpp"
+#include "playButton.hpp"
+#include "eraseDataButton.hpp"
+#include "quitButton.hpp"
+#include "statsButton.hpp"
+#include "attackButton.hpp"
+#include "healButton.hpp"
+#include "doNothingButton.hpp"
+#include "quitToMenuButton.hpp"
 
 
 int main() {
     sf::RenderWindow window(sf::VideoMode(1280, 720), "Maria Cosneanu 534295");
     sf::Font font;
 
-    if (!font.loadFromFile("Namaku.ttf")) {
+    if (!font.loadFromFile("Robot Crush.ttf")) {
         return -1;
     }
 
@@ -26,12 +34,18 @@ int main() {
 
 
     // main menu
+
+    //title
+    TextObject title("title", font, "FIGHTER GAME");
+    title.setCharacterSize(80);
+    title.setFillColor(sf::Color::Black);
+    title.setPosition(sf::Vector2f(400.0f, 100.0f));
     
     //highscore
     TextObject highScoreText("highScoreText", font, "");
     highScoreText.setCharacterSize(20);
     highScoreText.setFillColor(sf::Color::Black);
-    highScoreText.setPosition(sf::Vector2f(100.0f, 200.0f));
+    highScoreText.setPosition(sf::Vector2f(580.0f, 470.0f));
    
     std::vector<int> highScores = sceneHandler.getHighscoreManager()->getHighScoreList();
     std::string highScoreString = "High Scores:\n";
@@ -41,15 +55,16 @@ int main() {
     highScoreText.setText(highScoreString);
 
     //buttons
-    PlayButton playButton("playButton", font, sf::Vector2f(200.0f, 50.0f), sf::Color(134, 134, 134), sceneHandler);
-    playButton.setPosition(sf::Vector2f(540.0f, 250.0f));
+    PlayButton playButton("playButton", font, sf::Vector2f(200.0f, 50.0f), sf::Color::Black, sceneHandler);
+    playButton.setPosition(sf::Vector2f(540.0f, 300.0f));
 
-    EraseDataButton eraseDataButton("eraseDataButton", font, sf::Vector2f(200.0f, 50.0f), sf::Color(134, 134, 134), sceneHandler);
+    EraseDataButton eraseDataButton("eraseDataButton", font, sf::Vector2f(200.0f, 50.0f), sf::Color::Black, sceneHandler);
     eraseDataButton.setPosition(sf::Vector2f(540.0f, 400.0f));
 
     QuitButton quitButton("quitButton", font, sf::Vector2f(200.0f, 50.0f), sf::Color::Red, window);
-    quitButton.setPosition(sf::Vector2f(540.0f, 550.0f));
+    quitButton.setPosition(sf::Vector2f(540.0f, 600.0f));
 
+    mainMenuScene.addGameObject(title);
     mainMenuScene.addGameObject(highScoreText);
     mainMenuScene.addGameObject(playButton);
     mainMenuScene.addGameObject(eraseDataButton);
@@ -59,96 +74,88 @@ int main() {
     // stats scene
 
     TextObject selectionSceneTitle("SelectionScreenTitle", font, "Select Your Stats");
-    selectionSceneTitle.setCharacterSize(40);
+    selectionSceneTitle.setCharacterSize(50);
     selectionSceneTitle.setFillColor(sf::Color::Black);
-    selectionSceneTitle.setPosition(sf::Vector2f(450, 100));
+    selectionSceneTitle.setPosition(sf::Vector2f(450, 120));
 
-    TextObject tankStats("tankStats", font, "HP: 200\nHealing: 5\nAttack: 5");
-    tankStats.setCharacterSize(20);
+    TextObject tankStats("tankStats", font, "HP: 200\nhealing: 15\nattack: 5");
+    tankStats.setCharacterSize(30);
     tankStats.setFillColor(sf::Color::Black);
-    tankStats.setPosition(sf::Vector2f(250.0f, 300.0f));
+    tankStats.setPosition(sf::Vector2f(320.0f, 350.0f));
 
-    TextObject assassinStats("assassinStats", font, "HP: 75\nHealing: 5\nAttack: 20");
-    assassinStats.setCharacterSize(20);
+    TextObject assassinStats("assassinStats", font, "HP: 60\nhealing: 10\nattack: 20");
+    assassinStats.setCharacterSize(30);
     assassinStats.setFillColor(sf::Color::Black);
-    assassinStats.setPosition(sf::Vector2f(590.0f, 300.0f));
+    assassinStats.setPosition(sf::Vector2f(770.0f, 350.0f));
 
-    TextObject mageStats("mageStats", font, "HP: 100\nHealing: 15\nAttack: 5");
-    mageStats.setCharacterSize(20);
-    mageStats.setFillColor(sf::Color::Black);
-    mageStats.setPosition(sf::Vector2f(930.0f, 300.0f));
 
     //buttons
-    StatsButton tankButton("tankButton", font, sf::Vector2f(200.0f, 50.0f), sf::Color(134, 134, 134), sceneHandler, "Tank");
-    tankButton.setPosition(sf::Vector2f(200.0f, 400.0f));
+    StatsButton tankButton("tankButton", font, sf::Vector2f(200.0f, 50.0f), sf::Color::Black, sceneHandler, "tank");
+    tankButton.setPosition(sf::Vector2f(300.0f, 300.0f));
 
-    StatsButton assassinButton("assassinButton", font, sf::Vector2f(200.0f, 50.0f), sf::Color(134, 134, 134), sceneHandler, "Assassin");
-    assassinButton.setPosition(sf::Vector2f(540.0f, 400.0f));
+    StatsButton assassinButton("damageButton", font, sf::Vector2f(200.0f, 50.0f), sf::Color::Black, sceneHandler, "damage");
+    assassinButton.setPosition(sf::Vector2f(750.0f, 300.0f));
 
-    StatsButton mageButton("mageButton", font, sf::Vector2f(200.0f, 50.0f), sf::Color(134, 134, 134), sceneHandler, "Mage");
-    mageButton.setPosition(sf::Vector2f(880.0f, 400.0f));
 
     statsScene.addGameObject(selectionSceneTitle);
     statsScene.addGameObject(tankStats);
     statsScene.addGameObject(assassinStats);
-    statsScene.addGameObject(mageStats);
     statsScene.addGameObject(tankButton);
     statsScene.addGameObject(assassinButton);
-    statsScene.addGameObject(mageButton);
 
 
     // fight scene
 
-    TextObject turnAndScoreCountText("turnCountText", font, "Turn:\nScore: ");
-    turnAndScoreCountText.setCharacterSize(25);
-    turnAndScoreCountText.setFillColor(sf::Color::Blue);
-    turnAndScoreCountText.setPosition(sf::Vector2f(620.0f, 45.0f));
+    TextObject turnAndScoreCountText("turnCountText", font, "turn:\nscore: ");
+    turnAndScoreCountText.setCharacterSize(50);
+    turnAndScoreCountText.setFillColor(sf::Color::Black);
+    turnAndScoreCountText.setPosition(sf::Vector2f(550.0f, 50.0f));
 
     //player
     Player player("player");
     player.setSpriteFile("player4.png");
     player.sprite->setPosition(sf::Vector2f(70.0f, 200.0f)); 
 
-    TextObject playerHPText("playerHPText", font, "HP: " + std::to_string(player.getHealth()));
-    playerHPText.setCharacterSize(20);
-    playerHPText.setFillColor(sf::Color::Red);
-    playerHPText.setPosition(sf::Vector2f(100.0f, 100.0f)); 
+    TextObject playerHPText("playerHPText", font, "hp: " + std::to_string(player.getHealth()));
+    playerHPText.setCharacterSize(30);
+    playerHPText.setFillColor(sf::Color::Green);
+    playerHPText.setPosition(sf::Vector2f(100.0f, 150.0f)); 
 
-    TextObject playerActionResultText("playerActionResultText", font, "Player ready for battle!");
-    playerActionResultText.setCharacterSize(15);
+    TextObject playerActionResultText("playerActionResultText", font, "player ready for battle!");
+    playerActionResultText.setCharacterSize(25);
     playerActionResultText.setFillColor(sf::Color::Black);
     playerActionResultText.setPosition(sf::Vector2f(320.0f, 220.0f));
 
     //enemy
     Enemy enemy("enemy");
     enemy.setSpriteFile("enemy2.png");
-    enemy.sprite->setPosition(sf::Vector2f(800.0f, 120.0f)); 
+    enemy.sprite->setPosition(sf::Vector2f(800.0f, 150.0f)); 
     enemy.setMaxHealth(100);
     enemy.setHealth(100);
     enemy.setAttackDamage(15);
     enemy.setHealAmount(10);
 
     TextObject enemyHPText("enemyHPText", font, "HP: " + std::to_string(enemy.getHealth()));
-    enemyHPText.setCharacterSize(20);
+    enemyHPText.setCharacterSize(30);
     enemyHPText.setFillColor(sf::Color::Red);
-    enemyHPText.setPosition(sf::Vector2f(1100.0f, 100.0f));
+    enemyHPText.setPosition(sf::Vector2f(1100.0f, 150.0f));
 
-    TextObject enemyActionResultText("enemyActionResultText", font, "Enemy ready for battle!");
-    enemyActionResultText.setCharacterSize(15);
+    TextObject enemyActionResultText("enemyActionResultText", font, "enemy ready for battle!");
+    enemyActionResultText.setCharacterSize(25);
     enemyActionResultText.setFillColor(sf::Color::Black);
-    enemyActionResultText.setPosition(sf::Vector2f(700.0f, 480.0f));
+    enemyActionResultText.setPosition(sf::Vector2f(680.0f, 490.0f));
     
     //buttons
-    AttackButton attackButton("attackButton", font, sf::Vector2f(200.0f, 50.0f), sf::Color(134, 134, 134), sceneHandler);
+    AttackButton attackButton("attackButton", font, sf::Vector2f(200.0f, 50.0f), sf::Color::Black, sceneHandler);
     attackButton.setPosition(sf::Vector2f(300.0f, 550.0f));
 
-    HealButton healButton("healButton", font, sf::Vector2f(200.0f, 50.0f), sf::Color(134, 134, 134), sceneHandler);
+    HealButton healButton("healButton", font, sf::Vector2f(200.0f, 50.0f), sf::Color::Black, sceneHandler);
     healButton.setPosition(sf::Vector2f(540.0f, 550.0f));
 
-    DoNothingButton doNothingButton("doNothingButton", font, sf::Vector2f(200.0f, 50.0f), sf::Color(134, 134, 134), sceneHandler);
+    DoNothingButton doNothingButton("doNothingButton", font, sf::Vector2f(200.0f, 50.0f), sf::Color::Black, sceneHandler);
     doNothingButton.setPosition(sf::Vector2f(780.0f, 550.0f));
 
-    QuitToMenuButton quitToMenuButton("quitToMenuButton", font, sf::Vector2f(150.0f, 40.0f), sf::Color::Red, sceneHandler);
+    QuitToMenuButton quitToMenuButton("quitToMenuButton", font, sf::Vector2f(180.0f, 40.0f), sf::Color::Red, sceneHandler);
     quitToMenuButton.setPosition(sf::Vector2f(540.0f, 650.0f));
 
     fightScene.addGameObject(turnAndScoreCountText);
@@ -168,14 +175,14 @@ int main() {
     // gameover scene
 
     TextObject gameOverText("gameOverText", font, "GAME OVER!");
-    gameOverText.setCharacterSize(50);
+    gameOverText.setCharacterSize(80);
     gameOverText.setFillColor(sf::Color::Red);
-    gameOverText.setPosition(sf::Vector2f(480.0f, 200.0f));
+    gameOverText.setPosition(sf::Vector2f(450.0f, 200.0f));
 
     TextObject finalScoreText("finalScoreText", font, "");
     finalScoreText.setCharacterSize(30);
     finalScoreText.setFillColor(sf::Color::Black);
-    finalScoreText.setPosition(sf::Vector2f(520.0f, 300.0f));
+    finalScoreText.setPosition(sf::Vector2f(540.0f, 300.0f));
 
     QuitToMenuButton gameOverQuitButton("gameOverQuitButton", font, sf::Vector2f(200.0f, 50.0f), sf::Color::Red, sceneHandler);
     gameOverQuitButton.setPosition(sf::Vector2f(540.0f, 400.0f));

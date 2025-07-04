@@ -1,26 +1,70 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\CMGT\\year3\\C\u002B\u002B\\C\u002B\u002BProject\\C\u002B\u002B\\",
+  "WorkspaceRootPath": "D:\\CMGT\\year3\\C\u002B\u002B\\534295-MariaCosneanu-2025year3\\C\u002B\u002B\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5F0694C5-C853-4D3B-B320-C8AB554333B5}|C\u002B\u002B.vcxproj|D:\\CMGT\\year3\\C\u002B\u002B\\C\u002B\u002BProject\\C\u002B\u002B\\button.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{5F0694C5-C853-4D3B-B320-C8AB554333B5}|C\u002B\u002B.vcxproj|solutionrelative:button.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5F0694C5-C853-4D3B-B320-C8AB554333B5}|C\u002B\u002B.vcxproj|D:\\CMGT\\year3\\C\u002B\u002B\\C\u002B\u002BProject\\C\u002B\u002B\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{5F0694C5-C853-4D3B-B320-C8AB554333B5}|C\u002B\u002B.vcxproj|D:\\CMGT\\year3\\C\u002B\u002B\\534295-MariaCosneanu-2025year3\\C\u002B\u002B\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{5F0694C5-C853-4D3B-B320-C8AB554333B5}|C\u002B\u002B.vcxproj|solutionrelative:main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5F0694C5-C853-4D3B-B320-C8AB554333B5}|C\u002B\u002B.vcxproj|D:\\CMGT\\year3\\C\u002B\u002B\\C\u002B\u002BProject\\C\u002B\u002B\\highscoreManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{5F0694C5-C853-4D3B-B320-C8AB554333B5}|C\u002B\u002B.vcxproj|solutionrelative:highscoreManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{5F0694C5-C853-4D3B-B320-C8AB554333B5}|C\u002B\u002B.vcxproj|D:\\CMGT\\year3\\C\u002B\u002B\\534295-MariaCosneanu-2025year3\\C\u002B\u002B\\quitToMenuButton.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{5F0694C5-C853-4D3B-B320-C8AB554333B5}|C\u002B\u002B.vcxproj|solutionrelative:quitToMenuButton.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5F0694C5-C853-4D3B-B320-C8AB554333B5}|C\u002B\u002B.vcxproj|D:\\CMGT\\year3\\C\u002B\u002B\\C\u002B\u002BProject\\C\u002B\u002B\\enemy.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{5F0694C5-C853-4D3B-B320-C8AB554333B5}|C\u002B\u002B.vcxproj|D:\\CMGT\\year3\\C\u002B\u002B\\534295-MariaCosneanu-2025year3\\C\u002B\u002B\\sceneHandler.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{5F0694C5-C853-4D3B-B320-C8AB554333B5}|C\u002B\u002B.vcxproj|solutionrelative:sceneHandler.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F0694C5-C853-4D3B-B320-C8AB554333B5}|C\u002B\u002B.vcxproj|D:\\CMGT\\year3\\C\u002B\u002B\\534295-MariaCosneanu-2025year3\\C\u002B\u002B\\sceneHandler.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{5F0694C5-C853-4D3B-B320-C8AB554333B5}|C\u002B\u002B.vcxproj|solutionrelative:sceneHandler.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F0694C5-C853-4D3B-B320-C8AB554333B5}|C\u002B\u002B.vcxproj|D:\\CMGT\\year3\\C\u002B\u002B\\534295-MariaCosneanu-2025year3\\C\u002B\u002B\\statsButton.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{5F0694C5-C853-4D3B-B320-C8AB554333B5}|C\u002B\u002B.vcxproj|solutionrelative:statsButton.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F0694C5-C853-4D3B-B320-C8AB554333B5}|C\u002B\u002B.vcxproj|D:\\CMGT\\year3\\C\u002B\u002B\\534295-MariaCosneanu-2025year3\\C\u002B\u002B\\quitToMenuButton.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{5F0694C5-C853-4D3B-B320-C8AB554333B5}|C\u002B\u002B.vcxproj|solutionrelative:quitToMenuButton.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F0694C5-C853-4D3B-B320-C8AB554333B5}|C\u002B\u002B.vcxproj|D:\\CMGT\\year3\\C\u002B\u002B\\534295-MariaCosneanu-2025year3\\C\u002B\u002B\\quitButton.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{5F0694C5-C853-4D3B-B320-C8AB554333B5}|C\u002B\u002B.vcxproj|solutionrelative:quitButton.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F0694C5-C853-4D3B-B320-C8AB554333B5}|C\u002B\u002B.vcxproj|D:\\CMGT\\year3\\C\u002B\u002B\\534295-MariaCosneanu-2025year3\\C\u002B\u002B\\enemy.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{5F0694C5-C853-4D3B-B320-C8AB554333B5}|C\u002B\u002B.vcxproj|solutionrelative:enemy.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5F0694C5-C853-4D3B-B320-C8AB554333B5}|C\u002B\u002B.vcxproj|D:\\CMGT\\year3\\C\u002B\u002B\\C\u002B\u002BProject\\C\u002B\u002B\\sceneHandler.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{5F0694C5-C853-4D3B-B320-C8AB554333B5}|C\u002B\u002B.vcxproj|solutionrelative:sceneHandler.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{5F0694C5-C853-4D3B-B320-C8AB554333B5}|C\u002B\u002B.vcxproj|D:\\CMGT\\year3\\C\u002B\u002B\\534295-MariaCosneanu-2025year3\\C\u002B\u002B\\button.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{5F0694C5-C853-4D3B-B320-C8AB554333B5}|C\u002B\u002B.vcxproj|solutionrelative:button.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F0694C5-C853-4D3B-B320-C8AB554333B5}|C\u002B\u002B.vcxproj|D:\\CMGT\\year3\\C\u002B\u002B\\534295-MariaCosneanu-2025year3\\C\u002B\u002B\\button.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{5F0694C5-C853-4D3B-B320-C8AB554333B5}|C\u002B\u002B.vcxproj|solutionrelative:button.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F0694C5-C853-4D3B-B320-C8AB554333B5}|C\u002B\u002B.vcxproj|D:\\CMGT\\year3\\C\u002B\u002B\\534295-MariaCosneanu-2025year3\\C\u002B\u002B\\eraseDataButton.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{5F0694C5-C853-4D3B-B320-C8AB554333B5}|C\u002B\u002B.vcxproj|solutionrelative:eraseDataButton.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F0694C5-C853-4D3B-B320-C8AB554333B5}|C\u002B\u002B.vcxproj|D:\\CMGT\\year3\\C\u002B\u002B\\534295-MariaCosneanu-2025year3\\C\u002B\u002B\\healButton.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{5F0694C5-C853-4D3B-B320-C8AB554333B5}|C\u002B\u002B.vcxproj|solutionrelative:healButton.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F0694C5-C853-4D3B-B320-C8AB554333B5}|C\u002B\u002B.vcxproj|D:\\CMGT\\year3\\C\u002B\u002B\\534295-MariaCosneanu-2025year3\\C\u002B\u002B\\doNothingButton.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{5F0694C5-C853-4D3B-B320-C8AB554333B5}|C\u002B\u002B.vcxproj|solutionrelative:doNothingButton.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F0694C5-C853-4D3B-B320-C8AB554333B5}|C\u002B\u002B.vcxproj|D:\\CMGT\\year3\\C\u002B\u002B\\534295-MariaCosneanu-2025year3\\C\u002B\u002B\\attackButton.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{5F0694C5-C853-4D3B-B320-C8AB554333B5}|C\u002B\u002B.vcxproj|solutionrelative:attackButton.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F0694C5-C853-4D3B-B320-C8AB554333B5}|C\u002B\u002B.vcxproj|D:\\CMGT\\year3\\C\u002B\u002B\\534295-MariaCosneanu-2025year3\\C\u002B\u002B\\quitButton.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{5F0694C5-C853-4D3B-B320-C8AB554333B5}|C\u002B\u002B.vcxproj|solutionrelative:quitButton.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F0694C5-C853-4D3B-B320-C8AB554333B5}|C\u002B\u002B.vcxproj|D:\\CMGT\\year3\\C\u002B\u002B\\534295-MariaCosneanu-2025year3\\C\u002B\u002B\\eraseDataButton.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{5F0694C5-C853-4D3B-B320-C8AB554333B5}|C\u002B\u002B.vcxproj|solutionrelative:eraseDataButton.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,68 +74,201 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "sceneHandler.cpp",
-              "DocumentMoniker": "D:\\CMGT\\year3\\C\u002B\u002B\\C\u002B\u002BProject\\C\u002B\u002B\\sceneHandler.cpp",
-              "RelativeDocumentMoniker": "sceneHandler.cpp",
-              "ToolTip": "D:\\CMGT\\year3\\C\u002B\u002B\\C\u002B\u002BProject\\C\u002B\u002B\\sceneHandler.cpp",
-              "RelativeToolTip": "sceneHandler.cpp",
-              "ViewState": "AQIAABgAAAAAAAAAAAAlwEAAAAAhAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-01-03T14:30:28.585Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "button.hpp",
-              "DocumentMoniker": "D:\\CMGT\\year3\\C\u002B\u002B\\C\u002B\u002BProject\\C\u002B\u002B\\button.hpp",
-              "RelativeDocumentMoniker": "button.hpp",
-              "ToolTip": "D:\\CMGT\\year3\\C\u002B\u002B\\C\u002B\u002BProject\\C\u002B\u002B\\button.hpp",
-              "RelativeToolTip": "button.hpp",
-              "ViewState": "AgIAAFAAAAAAAAAAAAAlwFwAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-01-03T13:48:30.007Z",
+              "Title": "main.cpp",
+              "DocumentMoniker": "D:\\CMGT\\year3\\C\u002B\u002B\\534295-MariaCosneanu-2025year3\\C\u002B\u002B\\main.cpp",
+              "RelativeDocumentMoniker": "main.cpp",
+              "ToolTip": "D:\\CMGT\\year3\\C\u002B\u002B\\534295-MariaCosneanu-2025year3\\C\u002B\u002B\\main.cpp",
+              "RelativeToolTip": "main.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-01-04T12:04:06.366Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "highscoreManager.cpp",
-              "DocumentMoniker": "D:\\CMGT\\year3\\C\u002B\u002B\\C\u002B\u002BProject\\C\u002B\u002B\\highscoreManager.cpp",
-              "RelativeDocumentMoniker": "highscoreManager.cpp",
-              "ToolTip": "D:\\CMGT\\year3\\C\u002B\u002B\\C\u002B\u002BProject\\C\u002B\u002B\\highscoreManager.cpp",
-              "RelativeToolTip": "highscoreManager.cpp",
-              "ViewState": "AQIAACEAAAAAAAAAAAArwB8AAAAfAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-01-03T12:57:58.252Z"
+              "DocumentIndex": 3,
+              "Title": "sceneHandler.hpp",
+              "DocumentMoniker": "D:\\CMGT\\year3\\C\u002B\u002B\\534295-MariaCosneanu-2025year3\\C\u002B\u002B\\sceneHandler.hpp",
+              "RelativeDocumentMoniker": "sceneHandler.hpp",
+              "ToolTip": "D:\\CMGT\\year3\\C\u002B\u002B\\534295-MariaCosneanu-2025year3\\C\u002B\u002B\\sceneHandler.hpp",
+              "RelativeToolTip": "sceneHandler.hpp",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAADYAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-01-04T13:58:30.207Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "enemy.cpp",
-              "DocumentMoniker": "D:\\CMGT\\year3\\C\u002B\u002B\\C\u002B\u002BProject\\C\u002B\u002B\\enemy.cpp",
-              "RelativeDocumentMoniker": "enemy.cpp",
-              "ToolTip": "D:\\CMGT\\year3\\C\u002B\u002B\\C\u002B\u002BProject\\C\u002B\u002B\\enemy.cpp",
-              "RelativeToolTip": "enemy.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAGwAAAAUAAAA",
+              "DocumentIndex": 2,
+              "Title": "sceneHandler.cpp",
+              "DocumentMoniker": "D:\\CMGT\\year3\\C\u002B\u002B\\534295-MariaCosneanu-2025year3\\C\u002B\u002B\\sceneHandler.cpp",
+              "RelativeDocumentMoniker": "sceneHandler.cpp",
+              "ToolTip": "D:\\CMGT\\year3\\C\u002B\u002B\\534295-MariaCosneanu-2025year3\\C\u002B\u002B\\sceneHandler.cpp",
+              "RelativeToolTip": "sceneHandler.cpp",
+              "ViewState": "AgIAAJ8AAAAAAAAAAAAAAFAAAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-01-03T12:54:09.635Z"
+              "WhenOpened": "2025-01-04T13:55:16.055Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "button.hpp",
+              "DocumentMoniker": "D:\\CMGT\\year3\\C\u002B\u002B\\534295-MariaCosneanu-2025year3\\C\u002B\u002B\\button.hpp",
+              "RelativeDocumentMoniker": "button.hpp",
+              "ToolTip": "D:\\CMGT\\year3\\C\u002B\u002B\\534295-MariaCosneanu-2025year3\\C\u002B\u002B\\button.hpp",
+              "RelativeToolTip": "button.hpp",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-01-03T18:50:18.471Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "button.cpp",
+              "DocumentMoniker": "D:\\CMGT\\year3\\C\u002B\u002B\\534295-MariaCosneanu-2025year3\\C\u002B\u002B\\button.cpp",
+              "RelativeDocumentMoniker": "button.cpp",
+              "ToolTip": "D:\\CMGT\\year3\\C\u002B\u002B\\534295-MariaCosneanu-2025year3\\C\u002B\u002B\\button.cpp",
+              "RelativeToolTip": "button.cpp",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAB8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-01-04T12:12:12.039Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "statsButton.hpp",
+              "DocumentMoniker": "D:\\CMGT\\year3\\C\u002B\u002B\\534295-MariaCosneanu-2025year3\\C\u002B\u002B\\statsButton.hpp",
+              "RelativeDocumentMoniker": "statsButton.hpp",
+              "ToolTip": "D:\\CMGT\\year3\\C\u002B\u002B\\534295-MariaCosneanu-2025year3\\C\u002B\u002B\\statsButton.hpp",
+              "RelativeToolTip": "statsButton.hpp",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAAC0AAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-01-04T11:56:51.23Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "main.cpp",
-              "DocumentMoniker": "D:\\CMGT\\year3\\C\u002B\u002B\\C\u002B\u002BProject\\C\u002B\u002B\\main.cpp",
-              "RelativeDocumentMoniker": "main.cpp",
-              "ToolTip": "D:\\CMGT\\year3\\C\u002B\u002B\\C\u002B\u002BProject\\C\u002B\u002B\\main.cpp",
-              "RelativeToolTip": "main.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAiAAAA",
+              "Title": "quitToMenuButton.cpp",
+              "DocumentMoniker": "D:\\CMGT\\year3\\C\u002B\u002B\\534295-MariaCosneanu-2025year3\\C\u002B\u002B\\quitToMenuButton.cpp",
+              "RelativeDocumentMoniker": "quitToMenuButton.cpp",
+              "ToolTip": "D:\\CMGT\\year3\\C\u002B\u002B\\534295-MariaCosneanu-2025year3\\C\u002B\u002B\\quitToMenuButton.cpp",
+              "RelativeToolTip": "quitToMenuButton.cpp",
+              "ViewState": "AgIAABUAAAAAAAAAAAAswBgAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-12-31T14:35:30.987Z"
+              "WhenOpened": "2025-01-04T11:55:12.914Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "quitToMenuButton.hpp",
+              "DocumentMoniker": "D:\\CMGT\\year3\\C\u002B\u002B\\534295-MariaCosneanu-2025year3\\C\u002B\u002B\\quitToMenuButton.hpp",
+              "RelativeDocumentMoniker": "quitToMenuButton.hpp",
+              "ToolTip": "D:\\CMGT\\year3\\C\u002B\u002B\\534295-MariaCosneanu-2025year3\\C\u002B\u002B\\quitToMenuButton.hpp",
+              "RelativeToolTip": "quitToMenuButton.hpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-01-04T11:53:30.519Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "quitButton.cpp",
+              "DocumentMoniker": "D:\\CMGT\\year3\\C\u002B\u002B\\534295-MariaCosneanu-2025year3\\C\u002B\u002B\\quitButton.cpp",
+              "RelativeDocumentMoniker": "quitButton.cpp",
+              "ToolTip": "D:\\CMGT\\year3\\C\u002B\u002B\\534295-MariaCosneanu-2025year3\\C\u002B\u002B\\quitButton.cpp",
+              "RelativeToolTip": "quitButton.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-01-04T11:51:57.578Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "enemy.cpp",
+              "DocumentMoniker": "D:\\CMGT\\year3\\C\u002B\u002B\\534295-MariaCosneanu-2025year3\\C\u002B\u002B\\enemy.cpp",
+              "RelativeDocumentMoniker": "enemy.cpp",
+              "ToolTip": "D:\\CMGT\\year3\\C\u002B\u002B\\534295-MariaCosneanu-2025year3\\C\u002B\u002B\\enemy.cpp",
+              "RelativeToolTip": "enemy.cpp",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAAAAkAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-01-04T12:33:34.525Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "eraseDataButton.cpp",
+              "DocumentMoniker": "D:\\CMGT\\year3\\C\u002B\u002B\\534295-MariaCosneanu-2025year3\\C\u002B\u002B\\eraseDataButton.cpp",
+              "RelativeDocumentMoniker": "eraseDataButton.cpp",
+              "ToolTip": "D:\\CMGT\\year3\\C\u002B\u002B\\534295-MariaCosneanu-2025year3\\C\u002B\u002B\\eraseDataButton.cpp",
+              "RelativeToolTip": "eraseDataButton.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-01-04T11:48:47.064Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "attackButton.hpp",
+              "DocumentMoniker": "D:\\CMGT\\year3\\C\u002B\u002B\\534295-MariaCosneanu-2025year3\\C\u002B\u002B\\attackButton.hpp",
+              "RelativeDocumentMoniker": "attackButton.hpp",
+              "ToolTip": "D:\\CMGT\\year3\\C\u002B\u002B\\534295-MariaCosneanu-2025year3\\C\u002B\u002B\\attackButton.hpp",
+              "RelativeToolTip": "attackButton.hpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-01-04T11:58:08.099Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "healButton.hpp",
+              "DocumentMoniker": "D:\\CMGT\\year3\\C\u002B\u002B\\534295-MariaCosneanu-2025year3\\C\u002B\u002B\\healButton.hpp",
+              "RelativeDocumentMoniker": "healButton.hpp",
+              "ToolTip": "D:\\CMGT\\year3\\C\u002B\u002B\\534295-MariaCosneanu-2025year3\\C\u002B\u002B\\healButton.hpp",
+              "RelativeToolTip": "healButton.hpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-01-04T11:59:57.579Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "doNothingButton.hpp",
+              "DocumentMoniker": "D:\\CMGT\\year3\\C\u002B\u002B\\534295-MariaCosneanu-2025year3\\C\u002B\u002B\\doNothingButton.hpp",
+              "RelativeDocumentMoniker": "doNothingButton.hpp",
+              "ToolTip": "D:\\CMGT\\year3\\C\u002B\u002B\\534295-MariaCosneanu-2025year3\\C\u002B\u002B\\doNothingButton.hpp",
+              "RelativeToolTip": "doNothingButton.hpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-01-04T12:00:20.587Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "quitButton.hpp",
+              "DocumentMoniker": "D:\\CMGT\\year3\\C\u002B\u002B\\534295-MariaCosneanu-2025year3\\C\u002B\u002B\\quitButton.hpp",
+              "RelativeDocumentMoniker": "quitButton.hpp",
+              "ToolTip": "D:\\CMGT\\year3\\C\u002B\u002B\\534295-MariaCosneanu-2025year3\\C\u002B\u002B\\quitButton.hpp",
+              "RelativeToolTip": "quitButton.hpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-01-04T11:50:06.413Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "eraseDataButton.hpp",
+              "DocumentMoniker": "D:\\CMGT\\year3\\C\u002B\u002B\\534295-MariaCosneanu-2025year3\\C\u002B\u002B\\eraseDataButton.hpp",
+              "RelativeDocumentMoniker": "eraseDataButton.hpp",
+              "ToolTip": "D:\\CMGT\\year3\\C\u002B\u002B\\534295-MariaCosneanu-2025year3\\C\u002B\u002B\\eraseDataButton.hpp",
+              "RelativeToolTip": "eraseDataButton.hpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-01-04T11:44:07.365Z"
             }
           ]
         }

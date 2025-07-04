@@ -4,10 +4,10 @@ Enemy::Enemy(std::string identifier) : GameObject(identifier), sprite(nullptr) {
     this->maxHealth = 100;
     this->health = 100;
     this->attackDamage = 10;
-    this->healAmount = 10;
-    this->attackChance = 0.3f;
-    this->healChance = 0.2f;
-    this->doNothingChance = 0.5f;
+    this->healAmount = 5;
+    this->attackChance = 0.45f;
+    this->healChance = 0.3f;
+    this->doNothingChance = 0.25f;
 }   
 
 Enemy::~Enemy() {
@@ -90,7 +90,7 @@ void Enemy::doNothingAction() {
 int Enemy::chooseAction() {
     if (this->health <= 0) {
         reset();
-        printf("Enemy reset\n");
+        printf("Enemy died, resetting\n");
         return 4;
     }
     float random = static_cast<float>(rand()) / static_cast<float>(RAND_MAX);

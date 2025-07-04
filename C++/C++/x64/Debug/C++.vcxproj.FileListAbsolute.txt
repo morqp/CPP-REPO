@@ -1,4 +1,4 @@
-D:\CMGT\year3\C++\C++Project\C++\x64\Debug\sfml-system-d-2.dll
-D:\CMGT\year3\C++\C++Project\C++\x64\Debug\sfml-window-d-2.dll
-D:\CMGT\year3\C++\C++Project\C++\x64\Debug\sfml-graphics-d-2.dll
-D:\CMGT\year3\C++\C++Project\C++\C++\x64\Debug\C++.vcxproj.Up2Date
+D:\CMGT\year3\C++\534295-MariaCosneanu-2025year3\C++\x64\Debug\sfml-graphics-d-2.dll
+D:\CMGT\year3\C++\534295-MariaCosneanu-2025year3\C++\x64\Debug\sfml-window-d-2.dll
+D:\CMGT\year3\C++\534295-MariaCosneanu-2025year3\C++\x64\Debug\sfml-system-d-2.dll
+D:\CMGT\year3\C++\534295-MariaCosneanu-2025year3\C++\C++\x64\Debug\C++.vcxproj.Up2Date

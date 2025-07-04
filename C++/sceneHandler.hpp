@@ -52,6 +52,7 @@ class SceneHandler {
         void updateHighScoreText();
         int getCurrentScore() const;
         void resetCurrentScore();
+        void resetCurrentTurn();
 
         Player* getPlayer();
         Enemy* getEnemy();

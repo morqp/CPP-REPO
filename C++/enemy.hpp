@@ -27,6 +27,7 @@ class Enemy : public GameObject {
         void setHealth(int health);
         int getHealth() const;
         int getMaxHealth() const;
+        void Something(const Enemy& t);
 
         void setAttackDamage(int attackDamage);
         int getAttackDamage() const;

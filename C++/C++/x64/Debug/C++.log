@@ -1,11 +1,16 @@
-﻿  enemy.cpp
+﻿  button.cpp
+  enemy.cpp
+  eraseDataButton.cpp
   gameObject.cpp
   highscoreManager.cpp
+  playButton.cpp
   player.cpp
+  quitButton.cpp
+  quitToMenuButton.cpp
   scene.cpp
   sceneHandler.cpp
   main.cpp
-D:\CMGT\year3\C++\C++Project\C++\main.cpp(196,19): warning C4101: 'event': unreferenced local variable
+D:\CMGT\year3\C++\534295-MariaCosneanu-2025year3\C++\main.cpp(203,19): warning C4101: 'event': unreferenced local variable
   spriteObject.cpp
   Generating Code...
-  C++.vcxproj -> D:\CMGT\year3\C++\C++Project\C++\x64\Debug\C++.exe
+  C++.vcxproj -> D:\CMGT\year3\C++\534295-MariaCosneanu-2025year3\C++\x64\Debug\C++.exe
